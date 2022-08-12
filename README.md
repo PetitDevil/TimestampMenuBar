@@ -1,2 +1,2 @@
 # TimestampMenuBar
-Show timestamp window in fullscreen mode
+Show timestamp window in fullscreen mode on Mac
