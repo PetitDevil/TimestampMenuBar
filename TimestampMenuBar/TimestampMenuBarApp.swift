@@ -24,6 +24,9 @@ class AppDelegate:NSObject, NSApplicationDelegate{
     
     func applicationDidFinishLaunching(_ notification: Notification) {
         AppDelegate.instance = self
+        statusBarItem.button?.image = NSImage(named: NSImage.Name("BarIcon"))
+        statusBarItem.button?.image?.size = NSSize(width: 18.0, height: 18.0)
+        statusBarItem.button?.imagePosition = .imageLeading
         statusBarItem.menu = menu.createMenu()
     }
 }
